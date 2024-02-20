@@ -12,7 +12,21 @@
 </head>
 
 <body>
+    <div class="container my-5">
 
+        <form action="badwords.php" method="GET">
+            <div class="mb-3">
+                <label for="textarea">Scrivi qualcosa</label>
+                <textarea class="form-control" placeholder="Scrivi qui ..." id="textarea"
+                    style="height: 80px"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="text" class="form-label">Inserisci una parola da censurare</label>
+                <input type="text" class="form-control" id="text">
+            </div>
+            <button type="submit" class="btn btn-success">Invia</button>
+        </form>
+    </div>
 </body>
 
 </html>
